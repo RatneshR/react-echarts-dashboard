@@ -34,6 +34,14 @@ const Sidebar = () => {
                             Settings
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink
+                            to="/chart-library"
+                            className={({ isActive }) => isActive ? 'active-link' : ''}
+                        >
+                            Chart Library
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
             <div className="sidebar-footer">
